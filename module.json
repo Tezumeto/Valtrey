@@ -1,0 +1,165 @@
+{
+  "id": "tezu-valtrey",
+  "title": "Tezu Valtrey",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "description": "<p>Материалы по сеттингу Вальтрей</p>",
+  "authors": [
+    {
+      "name": "Tezu",
+      "url": "https://boosty.to/tezu",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "🪄🗺️🐲Вальтрэй",
+      "sorting": "m",
+      "color": "#fcba03",
+      "folders": [
+        {
+          "name": "Обзор сеттинга",
+          "sorting": "m",
+          "color": "#fcba03",
+          "packs": [
+            "opisanie-mira-i-ego-osobennostej",
+            "ustrojstvo-magii-v-valtree",
+            "valtrey-gos",
+            "valtrey-chrono",
+            "valtrey-religion"
+          ],
+          "folders": []
+        }
+      ],
+      "packs": [
+        "valtrey-spell",
+        "valtrey-npc",
+        "valtrey-item",
+        "valtrey-roll-table",
+        "valtrey-effect",
+        "valtrey-ability"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "opisanie-mira-i-ego-osobennostej",
+      "label": "Описание мира и его особенностей",
+      "path": "packs/opisanie-mira-i-ego-osobennostej",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-gos",
+      "label": "Государства",
+      "path": "packs/valtrey-gos",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-chrono",
+      "label": "Хронология",
+      "path": "packs/valtrey-chrono",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-religion",
+      "label": "Религия",
+      "path": "packs/valtrey-religion",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-npc",
+      "label": "НПЦ",
+      "path": "packs/valtrey-npc",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-spell",
+      "label": "Заклинания",
+      "path": "packs/valtrey-spell",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-item",
+      "label": "Предметы",
+      "path": "packs/valtrey-item",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-ability",
+      "label": "Способности",
+      "path": "packs/valtrey-ability",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-effect",
+      "label": "Эффекты",
+      "path": "packs/valtrey-effect",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-roll-table",
+      "label": "Случайные таблицы",
+      "path": "packs/valtrey-roll-table",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_back.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "background",
+                "feat"
+            ]
+        }
+    }
+    }
+  ]
+}

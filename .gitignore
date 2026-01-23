@@ -1,0 +1,13 @@
+   # Временные файлы
+   *.log
+   *.lock
+   .DS_Store
+   Thumbs.db
+   
+   # Папки разработки
+   node_modules/
+   .vscode/
+   .idea/
+   
+   # Бэкапы Foundry
+   *.bak
