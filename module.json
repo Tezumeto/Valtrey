@@ -78,6 +78,16 @@
       }
     },
     {
+      "name": "valtrey-spravochnik",
+      "label": "!Справочник",
+      "path": "packs/valtrey-spravochnik",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "valtrey-religion",
       "label": "Религия",
       "path": "packs/valtrey-religion",
