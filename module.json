@@ -150,16 +150,7 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      },
-      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_back.webp",
-      "flags": {
-        "dnd5e": {
-            "types": [
-                "background",
-                "feat"
-            ]
-        }
-    }
+      }
     }
   ]
 }
