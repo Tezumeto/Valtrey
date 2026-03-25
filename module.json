@@ -22,7 +22,7 @@
       "folders": [
         {
           "name": "Обзор сеттинга",
-          "sorting": "a",
+          "sorting": "m",
           "color": "#fcba03",
           "packs": [
             "valtrey-overview",
@@ -48,7 +48,7 @@
   "packs": [
     {
       "name": "valtrey-overview",
-      "label": "Описание мира и его особенностей",
+      "label": "Описание мира",
       "path": "packs/valtrey-overview",
       "type": "JournalEntry",
       "ownership": {
