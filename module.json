@@ -22,11 +22,11 @@
       "folders": [
         {
           "name": "Обзор сеттинга",
-          "sorting": "m",
+          "sorting": "a",
           "color": "#fcba03",
           "packs": [
-            "opisanie-mira-i-ego-osobennostej",
-            "ustrojstvo-magii-v-valtree",
+            "valtrey-overview",
+            "valtrey-magic",
             "valtrey-gos",
             "valtrey-chrono",
             "valtrey-religion",
@@ -47,10 +47,21 @@
   ],
   "packs": [
     {
-      "name": "opisanie-mira-i-ego-osobennostej",
+      "name": "valtrey-overview",
       "label": "Описание мира и его особенностей",
-      "path": "packs/opisanie-mira-i-ego-osobennostej",
+      "path": "packs/valtrey-overview",
       "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "valtrey-magic",
+      "label": "Магия",
+      "path": "packs/valtrey-magic",
+      "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
